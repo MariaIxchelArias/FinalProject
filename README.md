@@ -30,4 +30,15 @@ Load the all the files in the same directory. Final_Project.cpp Account.h Saving
 
 3. Click the "Build" menu item and select "Build Solution." The software compiles the code and creates the EXE file.
 
-Select the "Run" button. The compiler runs the executable file, so you can review the results of the C++
+4. Select the "Run" button. The compiler runs the executable file, so you can review the results of the C++
+
+# Built With
+AWS Cloud9 C++
+
+#Versioning
+Version 1 05/23/2019
+
+#Authors
+Maria Ixchel Arias Cruz, student at DVC Campus Pleasant Hill.
+COMSC 165-8271
+
