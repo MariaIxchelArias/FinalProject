@@ -12,11 +12,11 @@ The base class Account has the next member functions: Constructor: Accepts argum
 
 deposits: A virtual function that accepts an argument for the amount of the deposit. Add argument to account balance increments variable holding the deposits
 
-withdrawals: A virtual function that accepts an argument for the amount of the withdraw. Substract argument to account balance increments variable holding the withdraw.
+withdrawals: A virtual function that accepts an argument for the amount of the withdraw. Subtract argument to account balance increments variable holding the withdraw.
 
-calcInt: a virtual function that updates the balance by calculating the monthly interest earned by the account	,and adding this imterest to the balance
+calcInt: a virtual function that updates the balance by calculating the monthly interest earned by the account, and adding this interest to the balance
 
-MonthlyProc:a virtual function that substracts the monthly service charges from the balance, call the calvInt function , then sets the variables that hold the number of withdraws, number of deposits and service charges to zero
+MonthlyProc: a virtual function that subtracts the monthly service charges from the balance, call the calcIntfunction, then sets the variables that hold the number of withdraws, number of deposits and service charges to zero
 
 #Getting Started If using Visual Studio
 
@@ -28,8 +28,6 @@ Click the "File" menu item, then select "Open." Double-click the CPP file to loa
 
 Load the all the files in the same directory. Final_Project.cpp Account.h SavingsAccount.h CheckingAccount.h Transactions.h Transactions.cpp
 
-3.Click the "Build" menu item and select "Build Solution." The software compiles the code and creates the EXE file.
+3. Click the "Build" menu item and select "Build Solution." The software compiles the code and creates the EXE file.
 
-Select the "Run" button. The compiler runs the executable file, so you can
-review the results of the C++
-
+Select the "Run" button. The compiler runs the executable file, so you can review the results of the C++
