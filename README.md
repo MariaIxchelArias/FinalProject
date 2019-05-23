@@ -4,19 +4,8 @@ This program demonstrates the use of classes to create a bank account program. T
 
 The program uses the next concepts: Loopings Conditional statements Classes Inheritance Polymorphism type casting link lists
 
-The program uses the generic class Account to hold the next information from a bank account: Balance, Number of deposits per month, Number of withdrawals, annual interest rate, and Monthly Service Charges. The program uses two derived classes: SavingsAccount and CheckingAccount.The savings account has the member functions to check if the balance of savings account falls below $25; moreover, SavingsAccount member functions will check if the account is active or inactive before doing any transaction. SavingsAccount member function will add a service charge $1 for each withdraws above 4.
+The program uses two derived classes: SavingsAccount and CheckingAccount.The savings account has the member functions to check if the balance of savings account falls below $25; moreover, SavingsAccount member functions will check if the account is active or inactive before doing any transaction. SavingsAccount member function will add a service charge $1 for each withdraws above 4. The second derived class Checking account will have the functions to make available written check withdraw. If the balance goes below $0 a service charge of 15 will be taken from the account; moreover, there will be a monthly fee of $5 plus $.10 per withdraw. Finally the program displays the number of transactions per month using the Transactions class.
 
-The second derived class Checking account will have the functions to make available written check withdraw. If the balance goes below $0 a service charge of 15 will be taken from the account; moreover, there will be a monthly fee of $5 plus $.10 per withdraw.
-
-The base class Account has the next member functions: Constructor: Accepts arguments for the balance and annual interest rate
-
-deposits: A virtual function that accepts an argument for the amount of the deposit. Add argument to account balance increments variable holding the deposits
-
-withdrawals: A virtual function that accepts an argument for the amount of the withdraw. Subtract argument to account balance increments variable holding the withdraw.
-
-calcInt: a virtual function that updates the balance by calculating the monthly interest earned by the account, and adding this interest to the balance
-
-MonthlyProc: a virtual function that subtracts the monthly service charges from the balance, call the calcIntfunction, then sets the variables that hold the number of withdraws, number of deposits and service charges to zero
 
 #Getting Started If using Visual Studio
 
