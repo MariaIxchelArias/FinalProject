@@ -32,7 +32,10 @@ class CheckingAccount : public Account
 //***    Function: withdraw
 //***  Parameters: double am
 //***     Returns: NA
-//*** Description: 
+//*** Description: Before the base function is called,,check is a withdraw
+//                 will cause a balance to go under 0 
+//                 if the balance goes under 0, a service charge  will be 
+//                 taken from the account
 //**********************************************************************
 	 double withdraw( double am)
 	 {
@@ -52,11 +55,13 @@ class CheckingAccount : public Account
 	 	return amountwithdraw;
 	  }
 
+
 //**********************************************************************
-//***    Function:
-//***  Parameters:
-//***     Returns:
-//*** Description:
+//***    Function:monthlyProc
+//***  Parameters:NA
+//***     Returns:NA
+//*** Description:Before the base function is called,This adds the 
+//                monthly fee of $5 plus $,10 per withdrawal.
 //**********************************************************************
 	 void monthlyProc()
 	 {
